@@ -12,7 +12,7 @@ import airport from "../src/assets/airport.png";
 import Shane from "../src/assets/Shane.png";
 import Shane1 from "../src/assets/Shane1.png";
 import Library from "../src/assets/Library.png";
-import emergency from "../src/assets/Emergency.png";
+import emergency from "../src/assets/emergency.png";
 import academy from "../src/assets/academy.png";
 import academy1 from "../src/assets/academy1.png";
 
