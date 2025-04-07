@@ -26,7 +26,7 @@ function Contact() {
     setLoading(true); // Show loading animation
 
     try {
-      const response = await fetch("https://felix-de.onrender.com/send-email", {
+      const response = await fetch("https://felixx.onrender.com/send-email", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
