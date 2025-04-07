@@ -1,0 +1,84 @@
+/* Custom Footer Button */
+.btn-get-in-touch {
+  background-color: #FFD700; /* Yellow background */
+  color: #fff; /* White text */
+  border: 2px solid #FFD700; /* Border with yellow */
+  padding: 12px 24px; /* Padding for spacing */
+  font-size: 16px; /* Font size */
+  font-weight: bold; /* Bold text */
+  border-radius: 30px; /* Rounded corners */
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-get-in-touch:hover {
+  background-color: #f7c600; /* Darker yellow on hover */
+  border-color: #f7c600; /* Darker yellow border on hover */
+  transform: scale(1.05); /* Slight enlarge effect on hover */
+}
+
+.btn-get-in-touch:focus {
+  outline: none; /* Remove focus outline */
+}
+
+.btn-get-in-touch:active {
+  transform: scale(1); /* Reset scale when clicked */
+}
+
+/* Make the links stand out on hover */
+a:hover {
+  text-decoration: none;
+  color: #FFD700; /* Gold color for hover */
+}
+
+footer .container {
+  max-width: 1200px;
+}
+
+/* Footer Text Styling */
+footer h5 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #FFD700; /* Yellow color */
+}
+
+footer p {
+  font-size: 16px;
+  color: #ddd; /* Light gray for text */
+}
+
+footer .fs-3 {
+  font-size: 2rem; /* Increase icon size */
+}
+
+/* Improve overall padding and spacing */
+footer {
+  padding: 40px 0;
+}
+
+footer .row {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .text-md-start {
+  text-align: left;
+}
+
+footer .text-md-end {
+  text-align: right;
+}
+
+footer .mb-3 {
+  margin-bottom: 20px;
+}
+
+/* Banner Text Styling */
+h2.display-4 {
+  font-size: 3rem; /* Make heading larger */
+}
+
+p.lead {
+  font-size: 1.2rem; /* Larger font for description */
+  color: #ddd; /* Subtle text color */
+}
